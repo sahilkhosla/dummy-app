@@ -4,6 +4,5 @@ sayHello('world');
 
 // es6 fat arrow function
 (() => {
-  console.log('I am a fat arrow!');
+  console.log('I am a fat arrow!!');
 })();
-

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
+    "ws": "./node_modules/local-web-server/bin/cli.js -d ./public",
     "watch": "watch 'npm run build' ./src"
   },
   "keywords": [],
@@ -19,5 +20,7 @@
     "@babel/preset-env": "^7.5.5",
     "watch": "^1.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "local-web-server": "^3.0.4"
+  }
 }
