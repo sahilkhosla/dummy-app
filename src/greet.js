@@ -6,7 +6,7 @@ export default () => {
 
   // es6 fat arrow function
   (() => {
-    let a = 'name';
-    console.log('I am a fat arrow!!');
+    let name = 'foo';
+    console.log(`greetings from ${name}`);
   })();
 };

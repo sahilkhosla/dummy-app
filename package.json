@@ -6,8 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "ws": "./node_modules/local-web-server/bin/cli.js -d ./public",
-    "watch": "watch 'npm run build' ./src",
-    "bnl": "./node_modules/base-npm-lib/dist/index.js"
+    "watch": "watch 'npm run build' ./src"
   },
   "keywords": [],
   "author": "Sahil Khosla",
@@ -22,7 +21,6 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
-    "base-npm-lib": "^1.0.10",
     "local-web-server": "^3.0.4"
   }
 }
