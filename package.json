@@ -21,6 +21,7 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
+    "base-npm-lib": "^1.0.22",
     "local-web-server": "^3.0.4"
   }
 }
