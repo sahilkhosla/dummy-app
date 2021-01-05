@@ -12,13 +12,13 @@
   "author": "Sahil Khosla",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^8.0.6",
-    "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
-    "watch": "^1.0.2"
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "watch": "^1.0.2",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "base-npm-lib": "^1.0.22",
