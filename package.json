@@ -12,16 +12,20 @@
   "author": "Sahil Khosla",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^8.0.6",
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/generator": "^7.12.11",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "babel-preset-minify": "^0.5.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "watch": "^1.0.2",
     "webpack": "^5.11.1",
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "base-npm-lib": "^1.0.22",
-    "local-web-server": "^3.0.4"
-  }
+    "local-web-server": "^3.0.7"
+  },
+  "browserslist": "> 0.25%, not dead"
 }
