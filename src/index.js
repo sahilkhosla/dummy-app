@@ -1,3 +1,1 @@
-import { sayHello } from 'base-npm-lib';
-
-sayHello('world!');
+console.log('src/index.js');
