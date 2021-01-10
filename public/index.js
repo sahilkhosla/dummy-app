@@ -1,1 +1,1 @@
-console.log('public...')
+console.log('public/index.js');

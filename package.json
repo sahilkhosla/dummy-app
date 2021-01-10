@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "transpile": "babel src/index.js --config-file ./babel.config.json",
     "build": "webpack --config webpack.config.js",
     "ws": "./node_modules/local-web-server/bin/cli.js -d ./public",
     "watch": "watch 'npm run build' ./src"
@@ -15,6 +16,7 @@
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/generator": "^7.12.11",
+    "@babel/plugin-transform-runtime": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "babel-loader": "^8.2.2",
     "babel-preset-minify": "^0.5.1",
@@ -24,8 +26,10 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "@sahilkhosla/unlock-js": "^1.0.4",
+    "axios": "^0.21.1",
     "base-npm-lib": "^1.0.29",
     "local-web-server": "^3.0.7"
-  },
-  "browserslist": "> 0.25%, not dead"
+  }
 }
