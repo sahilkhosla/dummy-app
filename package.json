@@ -24,7 +24,7 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "base-npm-lib": "^1.0.22",
+    "base-npm-lib": "^1.0.29",
     "local-web-server": "^3.0.7"
   },
   "browserslist": "> 0.25%, not dead"

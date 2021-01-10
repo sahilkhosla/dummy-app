@@ -1,7 +1,8 @@
 body {
   background-color: #3B64AF;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace
+  font-family: 'Courier New', Courier, monospace;
+  min-height: 2000px;
 }
 h1 {
   color: white;
