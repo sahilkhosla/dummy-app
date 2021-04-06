@@ -27,7 +27,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.5",
-    "@sahilkhosla/unlock-js": "^1.0.4",
     "axios": "^0.21.1",
     "base-npm-lib": "^1.0.29",
     "local-web-server": "^3.0.7"
